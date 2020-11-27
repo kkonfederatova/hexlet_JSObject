@@ -1,0 +1,15 @@
+{
+  "name": "Слияние",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "npx -n --experimental-vm-modules jest --colors"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "dependencies": {
+    "lodash": "*"
+  }
+}
+}
